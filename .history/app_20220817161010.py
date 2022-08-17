@@ -9,7 +9,3 @@ def hello_world():
 @app.route("/Hoofdpagina")
 def Hoofdpagina():
     return "<p>Blog tekst hier invullen!</p>"
-
-@app.route("/ABC/<voornaam>")
-def ABC(voornaam):
-    return "<p>Welkom : "+voornaam+"!</p>"
